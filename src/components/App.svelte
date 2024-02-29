@@ -13,7 +13,6 @@
   bind:progress
 >
   <div class="background" slot="background">
-    <Map {index} />
     <div class="progress-bars">
       <p>current section: <strong>{index + 1}/{count}</strong></p>
       <progress value={count ? (index + 1) / count : 0} />
